@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wechat
+
+GenericName=WeChat
+Exec=/app/bin/wechat %U
+StartupNotify=true
+Terminal=false
+Icon=org.tencent.wechat
+Type=Application
+Categories=Utility;
+Comment=微信桌面版
