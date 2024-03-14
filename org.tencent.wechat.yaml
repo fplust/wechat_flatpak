@@ -13,7 +13,9 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   - --env=XDG_SESSION_TYPE=x11
   - --env=QT_QPA_PLATFORM=xcb
+  - --env=QT_IM_MODULE=ibus
   - --unset-env=WAYLAND_DISPLAY
+  - --filesystem=xdg-documents
 modules:
   - name: bzip2
     buildsystem: simple
